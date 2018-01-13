@@ -2,10 +2,10 @@ import smtplib
 from email.mime.text import MIMEText
 from email.header import Header
 
-sender = 'haohe@ect888.com'
-smtpserver = 'mail.ect888.com'
-username = 'haohe'
-password = 'haohe1989'
+sender = '<your_email_address>'
+smtpserver = '<smtp_server_address>'
+username = '<user>'
+password = '<passwd>'
 
 def send(receiver, subject, content):
 	msg = MIMEText(content,'plain','utf-8')
