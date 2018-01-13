@@ -18,4 +18,4 @@ def send(receiver, subject, content):
 	smtp.sendmail(sender,receiver,msg.as_string())
 	smtp.quit()
 
-send('137044930@qq.com','test from local','hello world')
+send('<receive_address>','test from local','hello world')
